@@ -65,7 +65,6 @@
  */
 
 // Buffer 1: Conv1 output map (CONV1_OUT = 30*40*4 = 4800 floats)
-// Memory usage: 19.2 KB (Exceeds M032SE 16KB SRAM, consider reducing Filter count in future)
 static float shared_buf_1[CONV1_OUT_H * CONV1_OUT_W * CONV1_OUT_C];
 
 // Buffer 2: Pool output map (POOL1_OUT = 15*20*4 = 1200 floats)
