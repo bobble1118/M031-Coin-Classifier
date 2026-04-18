@@ -1,0 +1,48 @@
+# Prerequisites
+*.d
+*.o
+*.crf
+*.elf
+*.hex
+*.bin
+*.map
+*.axf
+*.htm
+*.lnp
+*.sct
+*.dep
+*.lst
+*.iex
+*.bak
+
+# Keil MDK-ARM
+KEIL/obj/
+KEIL/lst/
+KEIL/DebugConfig/
+KEIL/RTE/
+*.uvguix.*
+*.uvoptx
+JLinkLog.txt
+*.scvd
+
+# IAR Embedded Workbench
+IAR/Debug/
+IAR/Release/
+IAR/settings/
+*.ewt
+*.ewd
+
+# GCC / Make
+GCC/obj/
+GCC/lst/
+
+# VSCode Workspace Environment
+.vscode/
+
+# Build directories
+build/
+output/
+
+# OS Generated
+.DS_Store
+Thumbs.db
